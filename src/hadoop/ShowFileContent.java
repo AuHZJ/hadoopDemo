@@ -19,11 +19,11 @@ public class ShowFileContent {
 		// 1.
 		Configuration conf = new Configuration();
 		System.out.println(conf);
-		conf.set("fs.defaultFS", "hdfs://192.168.43.82:9000");
+		conf.set("fs.defaultFS", "hdfs://192.168.1.103:9000");
 		try {
 			FileSystem fs = FileSystem.get(conf);
 			System.out.println(fs);
-			FSDataInputStream in = fs.open(new Path("/hadoop"));
+			FSDataInputStream in = fs.open(new Path("/a.txt"));
 			
 			IOUtils.copyBytes(in, System.out, conf);
 			

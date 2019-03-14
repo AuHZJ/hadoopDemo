@@ -117,5 +117,8 @@
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-nativetask-3.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-shuffle-3.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-mapreduce-examples-3.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
